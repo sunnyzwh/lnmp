@@ -1,0 +1,16 @@
+php_memcached.lo: /home/users/zhangwenhan01/www/download/memcached-2.2.0/php_memcached.c
+	$(LIBTOOL) --mode=compile $(CC) -I/home/users/zhangwenhan01/www/local/php56/include/php    -I. -I/home/users/zhangwenhan01/www/download/memcached-2.2.0 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/memcached-2.2.0/php_memcached.c -o php_memcached.lo 
+php_libmemcached_compat.lo: /home/users/zhangwenhan01/www/download/memcached-2.2.0/php_libmemcached_compat.c
+	$(LIBTOOL) --mode=compile $(CC) -I/home/users/zhangwenhan01/www/local/php56/include/php    -I. -I/home/users/zhangwenhan01/www/download/memcached-2.2.0 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/memcached-2.2.0/php_libmemcached_compat.c -o php_libmemcached_compat.lo 
+fastlz/fastlz.lo: /home/users/zhangwenhan01/www/download/memcached-2.2.0/fastlz/fastlz.c
+	$(LIBTOOL) --mode=compile $(CC) -I/home/users/zhangwenhan01/www/local/php56/include/php    -I. -I/home/users/zhangwenhan01/www/download/memcached-2.2.0 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/memcached-2.2.0/fastlz/fastlz.c -o fastlz/fastlz.lo 
+g_fmt.lo: /home/users/zhangwenhan01/www/download/memcached-2.2.0/g_fmt.c
+	$(LIBTOOL) --mode=compile $(CC) -I/home/users/zhangwenhan01/www/local/php56/include/php    -I. -I/home/users/zhangwenhan01/www/download/memcached-2.2.0 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/memcached-2.2.0/g_fmt.c -o g_fmt.lo 
+php_memcached_session.lo: /home/users/zhangwenhan01/www/download/memcached-2.2.0/php_memcached_session.c
+	$(LIBTOOL) --mode=compile $(CC) -I/home/users/zhangwenhan01/www/local/php56/include/php    -I. -I/home/users/zhangwenhan01/www/download/memcached-2.2.0 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/memcached-2.2.0/php_memcached_session.c -o php_memcached_session.lo 
+$(phplibdir)/memcached.la: ./memcached.la
+	$(LIBTOOL) --mode=install cp ./memcached.la $(phplibdir)
+
+./memcached.la: $(shared_objects_memcached) $(MEMCACHED_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_memcached) $(MEMCACHED_SHARED_LIBADD)
+

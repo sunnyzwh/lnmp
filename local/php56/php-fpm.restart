@@ -1,2 +1,0 @@
-#!/bin/bash
-kill -USR2 `cat /home/users/zhangwenhan01/www/local/php56/var/run/php-fpm.pid`

@@ -379,7 +379,7 @@
 /* #undef HAVE_ADABAS */
 
 /* Whether you have AI_V4MAPPED */
-/* #undef HAVE_AI_V4MAPPED */
+#define HAVE_AI_V4MAPPED 1
 
 /* whether the compiler supports __alignof__ */
 #define HAVE_ALIGNOF 1
@@ -456,7 +456,7 @@
 /* #undef HAVE_BCMATH */
 
 /* */
-/* #undef HAVE_BIND_TEXTDOMAIN_CODESET */
+#define HAVE_BIND_TEXTDOMAIN_CODESET 1
 
 /* */
 /* #undef HAVE_BIRDSTEP */
@@ -519,7 +519,7 @@
 /* #undef HAVE_CLOCK_GET_TIME */
 
 /* Whether you have struct cmsghdr */
-/* #undef HAVE_CMSGHDR */
+#define HAVE_CMSGHDR 1
 
 /* */
 /* #undef HAVE_CODBC */
@@ -549,22 +549,22 @@
 #define HAVE_CTYPE 1
 
 /* */
-/* #undef HAVE_CURL */
+#define HAVE_CURL 1
 
 /* */
-/* #undef HAVE_CURL_EASY_STRERROR */
+#define HAVE_CURL_EASY_STRERROR 1
 
 /* Have cURL with GnuTLS support */
 /* #undef HAVE_CURL_GNUTLS */
 
 /* */
-/* #undef HAVE_CURL_MULTI_STRERROR */
+#define HAVE_CURL_MULTI_STRERROR 1
 
 /* Have cURL with OpenSSL support */
-/* #undef HAVE_CURL_OPENSSL */
+#define HAVE_CURL_OPENSSL 1
 
 /* Have cURL with SSL support */
-/* #undef HAVE_CURL_SSL */
+#define HAVE_CURL_SSL 1
 
 /* Define to 1 if you have the `cuserid' function. */
 #define HAVE_CUSERID 1
@@ -576,7 +576,7 @@
 /* #undef HAVE_DBMAKER */
 
 /* */
-/* #undef HAVE_DCNGETTEXT */
+#define HAVE_DCNGETTEXT 1
 
 /* Whether system headers declare timezone */
 #define HAVE_DECLARED_TIMEZONE 1
@@ -607,7 +607,7 @@
 /* #undef HAVE_DMALLOC */
 
 /* */
-/* #undef HAVE_DNGETTEXT */
+#define HAVE_DNGETTEXT 1
 
 /* Define to 1 if you have the <dns.h> header file. */
 /* #undef HAVE_DNS_H */
@@ -847,7 +847,7 @@
 #define HAVE_HASH_EXT 1
 
 /* Define to 1 if you have the `hstrerror' function. */
-/* #undef HAVE_HSTRERROR */
+#define HAVE_HSTRERROR 1
 
 /* */
 #define HAVE_HTONL 1
@@ -877,10 +877,10 @@
 /* #undef HAVE_IEEEFP_H */
 
 /* Define to 1 if you have the `if_indextoname' function. */
-/* #undef HAVE_IF_INDEXTONAME */
+#define HAVE_IF_INDEXTONAME 1
 
 /* Define to 1 if you have the `if_nametoindex' function. */
-/* #undef HAVE_IF_NAMETOINDEX */
+#define HAVE_IF_NAMETOINDEX 1
 
 /* */
 /* #undef HAVE_IMAP */
@@ -1045,7 +1045,7 @@
 /* #undef HAVE_LIBICONV */
 
 /* */
-/* #undef HAVE_LIBINTL */
+#define HAVE_LIBINTL 1
 
 /* Define to 1 if you have the `m' library (-lm). */
 #define HAVE_LIBM 1
@@ -1075,7 +1075,7 @@
 /* #undef HAVE_LIBRECODE */
 
 /* */
-#define HAVE_LIBRESOLV 1
+/* #undef HAVE_LIBRESOLV */
 
 /* */
 #define HAVE_LIBRT 1
@@ -1135,7 +1135,7 @@
 #define HAVE_MBLEN 1
 
 /* whether to have multibyte regex support */
-/* #undef HAVE_MBREGEX */
+#define HAVE_MBREGEX 1
 
 /* Define to 1 if you have the `mbrlen' function. */
 #define HAVE_MBRLEN 1
@@ -1147,7 +1147,7 @@
 #define HAVE_MBSTATE_T 1
 
 /* whether to have multibyte string support */
-/* #undef HAVE_MBSTRING */
+#define HAVE_MBSTRING 1
 
 /* Define to 1 if you have the `memcpy' function. */
 #define HAVE_MEMCPY 1
@@ -1212,13 +1212,13 @@
 #define HAVE_NETINET_IN_H 1
 
 /* Define to 1 if you have the <netinet/tcp.h> header file. */
-/* #undef HAVE_NETINET_TCP_H */
+#define HAVE_NETINET_TCP_H 1
 
 /* Whether utf8_mime2text() has new signature */
 /* #undef HAVE_NEW_MIME2TEXT */
 
 /* */
-/* #undef HAVE_NGETTEXT */
+#define HAVE_NGETTEXT 1
 
 /* Define to 1 if you have the `nice' function. */
 #define HAVE_NICE 1
@@ -1276,10 +1276,10 @@
 /* #undef HAVE_OLD_READDIR_R */
 
 /* Define to 1 if the oniguruma library is available */
-/* #undef HAVE_ONIG */
+#define HAVE_ONIG 1
 
 /* Define to 1 if you have the <openssl/crypto.h> header file. */
-/* #undef HAVE_OPENSSL_CRYPTO_H */
+#define HAVE_OPENSSL_CRYPTO_H 1
 
 /* */
 /* #undef HAVE_OPENSSL_EXT */
@@ -1510,7 +1510,7 @@
 /* #undef HAVE_SAPDB */
 
 /* Whether you have sockaddr_storage.ss_family */
-/* #undef HAVE_SA_SS_FAMILY */
+#define HAVE_SA_SS_FAMILY 1
 
 /* Define to 1 if you have the `scandir' function. */
 #define HAVE_SCANDIR 1
@@ -1627,7 +1627,7 @@
 #define HAVE_SOCKETPAIR 1
 
 /* */
-/* #undef HAVE_SOCKETS */
+#define HAVE_SOCKETS 1
 
 /* Whether you have socklen_t */
 #define HAVE_SOCKLEN_T 1
@@ -1690,7 +1690,7 @@
 #define HAVE_STDARG_H 1
 
 /* Define to 1 if you have the <stdarg.h> header file. */
-/* #undef HAVE_STDARG_PROTOTYPES */
+#define HAVE_STDARG_PROTOTYPES 1
 
 /* Define to 1 if you have the <stdbool.h> header file. */
 /* #undef HAVE_STDBOOL_H */
@@ -1911,7 +1911,7 @@
 /* #undef HAVE_SYS_SYSEXITS_H */
 
 /* Define to 1 if you have the <sys/times.h> header file. */
-/* #undef HAVE_SYS_TIMES_H */
+#define HAVE_SYS_TIMES_H 1
 
 /* Define to 1 if you have the <sys/time.h> header file. */
 #define HAVE_SYS_TIME_H 1
@@ -1923,7 +1923,7 @@
 #define HAVE_SYS_UIO_H 1
 
 /* Define to 1 if you have the <sys/un.h> header file. */
-/* #undef HAVE_SYS_UN_H */
+#define HAVE_SYS_UN_H 1
 
 /* Define to 1 if you have the <sys/utsname.h> header file. */
 #define HAVE_SYS_UTSNAME_H 1
@@ -2159,7 +2159,7 @@
 /* #undef MISSING_STRTOK_R_DECL */
 
 /* Whether mysqlnd is enabled */
-/* #undef MYSQLI_USE_MYSQLND */
+#define MYSQLI_USE_MYSQLND 1
 
 /* Enable compressed protocol support */
 #define MYSQLND_COMPRESSION_WANTED 1
@@ -2207,7 +2207,7 @@
 /* #undef PDO_MYSQL_UNIX_ADDR */
 
 /* Whether pdo_mysql uses mysqlnd */
-/* #undef PDO_USE_MYSQLND */
+#define PDO_USE_MYSQLND 1
 
 /* */
 #define PHAR_HASH_OK 1
@@ -2234,13 +2234,13 @@
 #define PHP_EXT_DES_CRYPT 1
 
 /* fpm group name */
-#define PHP_FPM_GROUP "nobody"
+#define PHP_FPM_GROUP "www"
 
 /* fpm systemd service type */
 #define PHP_FPM_SYSTEMD "simple"
 
 /* fpm user name */
-#define PHP_FPM_USER "nobody"
+#define PHP_FPM_USER "www"
 
 /* Checked for stdint types */
 #define PHP_HAVE_STDINT_TYPES 1
@@ -2276,7 +2276,7 @@
 /* #undef PHP_ONIG_BAD_KOI8_ENTRY */
 
 /* Define to 1 if the bundled oniguruma is used */
-/* #undef PHP_ONIG_BUNDLED */
+#define PHP_ONIG_BUNDLED 1
 
 /* uname output */
 #define PHP_OS "Linux"
@@ -2395,7 +2395,7 @@
 /* #undef TCADB_INCLUDE_FILE */
 
 /* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
-/* #undef TIME_WITH_SYS_TIME */
+#define TIME_WITH_SYS_TIME 1
 
 /* Define to 1 if your <sys/time.h> declares `struct tm'. */
 /* #undef TM_IN_SYS_TIME */
@@ -2410,7 +2410,7 @@
 /* #undef UNIXWARE */
 
 /* whether to check multibyte regex backtrack */
-/* #undef USE_COMBINATION_EXPLOSION_CHECK */
+#define USE_COMBINATION_EXPLOSION_CHECK 1
 
 /* */
 /* #undef USE_GD_IMGSTRTTF */

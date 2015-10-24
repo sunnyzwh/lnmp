@@ -18,7 +18,7 @@
 
 /* $Id$ */
 
-#define CONFIGURE_COMMAND " './configure'  '--prefix=/home/users/zhangwenhan01/www/local/php56' '--enable-fpm' '--with-mysql'"
+#define CONFIGURE_COMMAND " './configure'  '--prefix=/home/users/zhangwenhan01/www/local/php56' '--with-config-file-path=/home/users/zhangwenhan01/www/local/php56/etc' '--enable-inline-optimization' '--enable-opcache' '--enable-fpm' '--with-fpm-user=www' '--with-fpm-group=www' '--with-mysql=mysqlnd' '--with-mysqli=mysqlnd' '--with-pdo-mysql=mysqlnd' '--with-gettext' '--enable-mbstring' '--with-iconv' '--enable-sockets' '--with-curl=/home/users/zhangwenhan01/www/local/curl'"
 #define PHP_ADA_INCLUDE		""
 #define PHP_ADA_LFLAGS		""
 #define PHP_ADA_LIBS		""
@@ -86,6 +86,6 @@
 #define PHP_DATADIR             "/home/users/zhangwenhan01/www/local/php56/share/php"
 #define PHP_SYSCONFDIR          "/home/users/zhangwenhan01/www/local/php56/etc"
 #define PHP_LOCALSTATEDIR       "/home/users/zhangwenhan01/www/local/php56/var"
-#define PHP_CONFIG_FILE_PATH    "/home/users/zhangwenhan01/www/local/php56/lib"
+#define PHP_CONFIG_FILE_PATH    "/home/users/zhangwenhan01/www/local/php56/etc"
 #define PHP_CONFIG_FILE_SCAN_DIR    ""
 #define PHP_SHLIB_SUFFIX        "so"

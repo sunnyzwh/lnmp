@@ -1,0 +1,120 @@
+php_mongo.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/php_mongo.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/php_mongo.c -o php_mongo.lo 
+mongo.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mongo.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mongo.c -o mongo.lo 
+mongoclient.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mongoclient.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mongoclient.c -o mongoclient.lo 
+bson.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/bson.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/bson.c -o bson.lo 
+cursor.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/cursor.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/cursor.c -o cursor.lo 
+command_cursor.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/command_cursor.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/command_cursor.c -o command_cursor.lo 
+cursor_shared.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/cursor_shared.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/cursor_shared.c -o cursor_shared.lo 
+collection.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/collection.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/collection.c -o collection.lo 
+db.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/db.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/db.c -o db.lo 
+io_stream.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/io_stream.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/io_stream.c -o io_stream.lo 
+log_stream.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/log_stream.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/log_stream.c -o log_stream.lo 
+contrib/crypto.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/contrib/crypto.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/contrib/crypto.c -o contrib/crypto.lo 
+contrib/php-json.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/contrib/php-json.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/contrib/php-json.c -o contrib/php-json.lo 
+contrib/php-ssl.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/contrib/php-ssl.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/contrib/php-ssl.c -o contrib/php-ssl.lo 
+gridfs/gridfs.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/gridfs/gridfs.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/gridfs/gridfs.c -o gridfs/gridfs.lo 
+gridfs/gridfs_cursor.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/gridfs/gridfs_cursor.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/gridfs/gridfs_cursor.c -o gridfs/gridfs_cursor.lo 
+gridfs/gridfs_file.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/gridfs/gridfs_file.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/gridfs/gridfs_file.c -o gridfs/gridfs_file.lo 
+gridfs/gridfs_stream.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/gridfs/gridfs_stream.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/gridfs/gridfs_stream.c -o gridfs/gridfs_stream.lo 
+exceptions/exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/exception.c -o exceptions/exception.lo 
+exceptions/connection_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/connection_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/connection_exception.c -o exceptions/connection_exception.lo 
+exceptions/duplicate_key_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/duplicate_key_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/duplicate_key_exception.c -o exceptions/duplicate_key_exception.lo 
+exceptions/cursor_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/cursor_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/cursor_exception.c -o exceptions/cursor_exception.lo 
+exceptions/protocol_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/protocol_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/protocol_exception.c -o exceptions/protocol_exception.lo 
+exceptions/cursor_timeout_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/cursor_timeout_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/cursor_timeout_exception.c -o exceptions/cursor_timeout_exception.lo 
+exceptions/execution_timeout_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/execution_timeout_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/execution_timeout_exception.c -o exceptions/execution_timeout_exception.lo 
+exceptions/gridfs_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/gridfs_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/gridfs_exception.c -o exceptions/gridfs_exception.lo 
+exceptions/result_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/result_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/result_exception.c -o exceptions/result_exception.lo 
+exceptions/write_concern_exception.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/write_concern_exception.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/exceptions/write_concern_exception.c -o exceptions/write_concern_exception.lo 
+types/bin_data.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/bin_data.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/bin_data.c -o types/bin_data.lo 
+types/code.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/code.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/code.c -o types/code.lo 
+types/date.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/date.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/date.c -o types/date.lo 
+types/db_ref.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/db_ref.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/db_ref.c -o types/db_ref.lo 
+types/id.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/id.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/id.c -o types/id.lo 
+types/int32.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/int32.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/int32.c -o types/int32.lo 
+types/int64.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/int64.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/int64.c -o types/int64.lo 
+types/regex.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/regex.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/regex.c -o types/regex.lo 
+types/timestamp.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/timestamp.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/types/timestamp.c -o types/timestamp.lo 
+util/log.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/util/log.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/util/log.c -o util/log.lo 
+util/pool.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/util/pool.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/util/pool.c -o util/pool.lo 
+mcon/bson_helpers.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/bson_helpers.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/bson_helpers.c -o mcon/bson_helpers.lo 
+mcon/collection.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/collection.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/collection.c -o mcon/collection.lo 
+mcon/connections.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/connections.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/connections.c -o mcon/connections.lo 
+mcon/manager.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/manager.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/manager.c -o mcon/manager.lo 
+mcon/mini_bson.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/mini_bson.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/mini_bson.c -o mcon/mini_bson.lo 
+mcon/parse.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/parse.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/parse.c -o mcon/parse.lo 
+mcon/read_preference.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/read_preference.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/read_preference.c -o mcon/read_preference.lo 
+mcon/str.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/str.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/str.c -o mcon/str.lo 
+mcon/utils.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/utils.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/utils.c -o mcon/utils.lo 
+mcon/contrib/md5.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/contrib/md5.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/contrib/md5.c -o mcon/contrib/md5.lo 
+mcon/contrib/strndup.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/contrib/strndup.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/mcon/contrib/strndup.c -o mcon/contrib/strndup.lo 
+api/wire_version.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/api/wire_version.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/api/wire_version.c -o api/wire_version.lo 
+api/write.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/api/write.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/api/write.c -o api/write.lo 
+api/batch.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/api/batch.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/api/batch.c -o api/batch.lo 
+batch/write.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/batch/write.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/batch/write.c -o batch/write.lo 
+batch/insert.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/batch/insert.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/batch/insert.c -o batch/insert.lo 
+batch/update.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/batch/update.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/batch/update.c -o batch/update.lo 
+batch/delete.lo: /home/users/zhangwenhan01/www/download/mongo-1.6.11/batch/delete.c
+	$(LIBTOOL) --mode=compile $(CC) -I./util -I. -I/home/users/zhangwenhan01/www/download/mongo-1.6.11 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/users/zhangwenhan01/www/download/mongo-1.6.11/batch/delete.c -o batch/delete.lo 
+$(phplibdir)/mongo.la: ./mongo.la
+	$(LIBTOOL) --mode=install cp ./mongo.la $(phplibdir)
+
+./mongo.la: $(shared_objects_mongo) $(MONGO_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_mongo) $(MONGO_SHARED_LIBADD)
+

@@ -8,8 +8,8 @@ version="5.6.14"
 vernum="50614"
 include_dir="${prefix}/include/php"
 includes="-I$include_dir -I$include_dir/main -I$include_dir/TSRM -I$include_dir/Zend -I$include_dir/ext -I$include_dir/ext/date/lib"
-ldflags=""
-libs="-lcrypt   -lresolv -lcrypt -lrt -lrt -lm -ldl -lnsl  -lrt -lxml2 -lz -lm -lxml2 -lz -lm -lxml2 -lz -lm -lcrypt -lxml2 -lz -lm -lxml2 -lz -lm -lxml2 -lz -lm -lcrypt "
+ldflags=" -L/home/users/zhangwenhan01/www/local/curl/lib"
+libs="-lcrypt   -lcrypt -lrt -lcurl -lrt -lm -ldl -lnsl  -lrt -lxml2 -lz -lm -lcurl -lxml2 -lz -lm -lxml2 -lz -lm -lcrypt -lxml2 -lz -lm -lxml2 -lz -lm -lxml2 -lz -lm -lcrypt "
 extension_dir='/home/users/zhangwenhan01/www/local/php56/lib/php/extensions/no-debug-non-zts-20131226'
 man_dir=`eval echo ${datarootdir}/man`
 program_prefix=""
@@ -17,7 +17,7 @@ program_suffix=""
 exe_extension=""
 php_cli_binary=NONE
 php_cgi_binary=NONE
-configure_options=" '--prefix=/home/users/zhangwenhan01/www/local/php56' '--enable-fpm' '--with-mysql'"
+configure_options=" '--prefix=/home/users/zhangwenhan01/www/local/php56' '--with-config-file-path=/home/users/zhangwenhan01/www/local/php56/etc' '--enable-inline-optimization' '--enable-opcache' '--enable-fpm' '--with-fpm-user=www' '--with-fpm-group=www' '--with-mysql=mysqlnd' '--with-mysqli=mysqlnd' '--with-pdo-mysql=mysqlnd' '--with-gettext' '--enable-mbstring' '--with-iconv' '--enable-sockets' '--with-curl=/home/users/zhangwenhan01/www/local/curl'"
 php_sapis=" cli fpm cgi"
 
 # Set php_cli_binary and php_cgi_binary if available

@@ -1,0 +1,9 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--with-php-config=/home/users/zhangwenhan01/www/local/php56/bin/php-config' \
+'--with-libmemcached-dir=/home/users/zhangwenhan01/www/local/libmemcached' \
+'--enable-memcached' \
+"$@"

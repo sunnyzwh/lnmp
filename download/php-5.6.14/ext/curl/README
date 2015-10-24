@@ -1,0 +1,1 @@
+./configure --with-curl=/home/users/zhangwenhan01/www/local/curl --with-php-config=/home/users/zhangwenhan01/www/local/php56/bin/php-config

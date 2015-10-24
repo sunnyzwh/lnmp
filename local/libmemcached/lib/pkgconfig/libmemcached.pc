@@ -1,0 +1,10 @@
+prefix=/home/users/zhangwenhan01/www/local/libmemcached
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmemcached
+Description: libmemcached C library.
+Version: 0.42
+Libs: -L${libdir} -lmemcached
+Cflags: -I${includedir}
