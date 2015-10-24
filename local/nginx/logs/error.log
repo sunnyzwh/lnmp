@@ -1,0 +1,29 @@
+2015/10/24 12:01:13 [warn] 38914#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /home/users/zhangwenhan01/www/local/nginx/conf/nginx.conf:3
+2015/10/24 12:02:33 [warn] 42548#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /home/users/zhangwenhan01/www/local/nginx/conf/nginx.conf:3
+2015/10/24 12:02:33 [emerg] 42548#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:33 [emerg] 42548#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:33 [emerg] 42548#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:33 [emerg] 42548#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:33 [emerg] 42548#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:33 [emerg] 42548#0: still could not bind()
+2015/10/24 12:02:59 [emerg] 43925#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:59 [emerg] 43925#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:59 [emerg] 43925#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:59 [emerg] 43925#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:59 [emerg] 43925#0: bind() to 0.0.0.0:8666 failed (98: Address already in use)
+2015/10/24 12:02:59 [emerg] 43925#0: still could not bind()
+2015/10/24 12:04:33 [error] 46891#0: *1 directory index of "/home/users/zhangwenhan01/www/html/" is forbidden, client: 10.44.118.141, server: www.yoyo.com, request: "GET / HTTP/1.1", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:04:33 [error] 46891#0: *1 open() "/home/users/zhangwenhan01/www/html/favicon.ico" failed (2: No such file or directory), client: 10.44.118.141, server: www.yoyo.com, request: "GET /favicon.ico HTTP/1.1", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666", referrer: "http://cp01-rdqa04-dev118.cp01.baidu.com:8666/"
+2015/10/24 12:04:33 [error] 46891#0: *1 open() "/home/users/zhangwenhan01/www/html/404.html" failed (2: No such file or directory), client: 10.44.118.141, server: www.yoyo.com, request: "GET /favicon.ico HTTP/1.1", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666", referrer: "http://cp01-rdqa04-dev118.cp01.baidu.com:8666/"
+2015/10/24 12:04:35 [error] 46891#0: *1 directory index of "/home/users/zhangwenhan01/www/html/" is forbidden, client: 10.44.118.141, server: www.yoyo.com, request: "GET / HTTP/1.1", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:05:45 [error] 46891#0: *5 directory index of "/home/users/zhangwenhan01/www/html/" is forbidden, client: 10.44.118.141, server: www.yoyo.com, request: "GET / HTTP/1.1", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:05:46 [error] 46891#0: *5 directory index of "/home/users/zhangwenhan01/www/html/" is forbidden, client: 10.44.118.141, server: www.yoyo.com, request: "GET / HTTP/1.1", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:05:46 [error] 46891#0: *5 directory index of "/home/users/zhangwenhan01/www/html/" is forbidden, client: 10.44.118.141, server: www.yoyo.com, request: "GET / HTTP/1.1", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:06:31 [error] 46891#0: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.44.118.141, server: www.yoyo.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:8111", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:06:37 [error] 46891#0: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.44.118.141, server: www.yoyo.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:8111", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:07:05 [error] 46891#0: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 10.44.118.141, server: www.yoyo.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:8111", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:17:40 [error] 9983#0: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 10.44.118.141, server: www.yoyo.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:8111", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 12:18:22 [notice] 26790#0: signal process started
+2015/10/24 12:20:43 [error] 27794#0: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 10.44.118.141, server: www.yoyo.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:8111", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 13:06:08 [error] 27794#0: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 10.44.118.141, server: www.yoyo.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:8111", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"
+2015/10/24 13:08:56 [error] 27794#0: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 10.44.118.141, server: www.yoyo.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:8111", host: "cp01-rdqa04-dev118.cp01.baidu.com:8666"

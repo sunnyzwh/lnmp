@@ -1,0 +1,52 @@
+[24-Oct-2015 11:46:09] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:46:09] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:46:09] NOTICE: fpm is running, pid 61677
+[24-Oct-2015 11:46:09] NOTICE: ready to handle connections
+[24-Oct-2015 11:50:02] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:50:02] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:50:02] ERROR: unable to bind listening socket for address '127.0.0.1:9000': Address already in use (98)
+[24-Oct-2015 11:50:02] ERROR: FPM initialization failed
+[24-Oct-2015 11:52:16] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:52:16] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:52:16] NOTICE: fpm is running, pid 15023
+[24-Oct-2015 11:52:16] NOTICE: ready to handle connections
+[24-Oct-2015 11:52:34] NOTICE: Terminating ...
+[24-Oct-2015 11:52:34] NOTICE: exiting, bye-bye!
+[24-Oct-2015 11:53:07] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:53:07] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:53:07] ERROR: unable to bind listening socket for address '127.0.0.1:8111': Address already in use (98)
+[24-Oct-2015 11:53:07] ERROR: FPM initialization failed
+[24-Oct-2015 11:55:44] NOTICE: Terminating ...
+[24-Oct-2015 11:55:44] NOTICE: exiting, bye-bye!
+[24-Oct-2015 11:58:07] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:58:07] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 11:58:07] NOTICE: fpm is running, pid 30683
+[24-Oct-2015 11:58:07] NOTICE: ready to handle connections
+[24-Oct-2015 12:17:33] NOTICE: Terminating ...
+[24-Oct-2015 12:17:33] NOTICE: exiting, bye-bye!
+[24-Oct-2015 12:17:44] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 12:17:44] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 12:17:44] NOTICE: fpm is running, pid 25303
+[24-Oct-2015 12:17:44] NOTICE: ready to handle connections
+[24-Oct-2015 12:20:40] NOTICE: Terminating ...
+[24-Oct-2015 12:20:40] NOTICE: exiting, bye-bye!
+[24-Oct-2015 12:20:55] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 12:20:55] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 12:20:55] NOTICE: fpm is running, pid 34334
+[24-Oct-2015 12:20:55] NOTICE: ready to handle connections
+[24-Oct-2015 13:06:05] NOTICE: Terminating ...
+[24-Oct-2015 13:06:05] NOTICE: exiting, bye-bye!
+[24-Oct-2015 13:09:11] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 13:09:11] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 13:09:11] NOTICE: fpm is running, pid 46144
+[24-Oct-2015 13:09:11] NOTICE: ready to handle connections
+[24-Oct-2015 13:09:34] NOTICE: Reloading in progress ...
+[24-Oct-2015 13:09:34] NOTICE: reloading: execvp("./sbin/php-fpm", {"./sbin/php-fpm"})
+[24-Oct-2015 13:09:34] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 13:09:34] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2015 13:09:34] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 13:09:34] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[24-Oct-2015 13:09:34] NOTICE: using inherited socket fd=7, "127.0.0.1:8111"
+[24-Oct-2015 13:09:34] NOTICE: using inherited socket fd=7, "127.0.0.1:8111"
+[24-Oct-2015 13:09:34] NOTICE: fpm is running, pid 47226
+[24-Oct-2015 13:09:34] NOTICE: ready to handle connections
